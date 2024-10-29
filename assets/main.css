@@ -2,7 +2,8 @@
 *                                                           *
 ************************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -63,6 +64,8 @@
 
 .potato-head__top {
     width: 100%;
+    padding: 1rem;
+   
 }
 
 .potato-head__top:after {
@@ -85,10 +88,45 @@
 
 .potato-head__top--title {
     float: left;
-    margin-left: 20rem;
+    margin-left: 14rem;
+    width: 12.5rem;
+    font-family: "Pacifico", cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    transform:rotate(-6deg);
+    position: relative;
+    z-index: 1;
 }
 
 .fa-bars {
     margin-left: 28rem;
 }
+
+.potato-head__top--photo  {
+  max-width: 100%;
+}
+
+.potato-head__top--photo-blur {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 1150px;
+  
+}
+
+.potato-head__top--photo-nonblur {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 44rem;
+  top: -39rem;
+}
+
+.potato-head__top--photo-block {
+  margin-top: 15rem;
+
+}
+
 
