@@ -21,6 +21,7 @@
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
     font-family: "Noto Sans", sans-serif;
+    color: #3f2612;
   }
   
   /* 5. Improve media defaults */
@@ -53,19 +54,21 @@
   #root, #__next {
     isolation: isolate;
   }
-
+  /* Responsive styling for the header */
+  
   /*******************HEADER CSS* ***************************
 *                                                           *
 ************************************************************/
 
 .potato-head {
     background: #EF8683;
+    max-width: 100%;
+    padding-bottom: 1rem;
 }
 
 .potato-head__top {
     width: 100%;
     padding: 1rem;
-   
 }
 
 .potato-head__top:after {
@@ -88,8 +91,7 @@
 
 .potato-head__top--title {
     float: left;
-    margin-left: 14rem;
-    width: 12.5rem;
+    margin-left: 13rem;
     font-family: "Pacifico", cursive;
     color: white;
     font-weight: 500;
@@ -97,22 +99,24 @@
     transform:rotate(-6deg);
     position: relative;
     z-index: 1;
+    text-shadow: -8px 13px 7px rgba(63, 38, 18, 1);
 }
 
 .fa-bars {
-    margin-left: 28rem;
+    margin-left: 26rem;
 }
 
-.potato-head__top--photo  {
-  max-width: 100%;
+.potato-head__top--photo {
+  height: 37rem;
 }
+
 
 .potato-head__top--photo-blur {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
   width: 1150px;
-  
+  border-radius: 30px;
 }
 
 .potato-head__top--photo-nonblur {
@@ -125,8 +129,73 @@
 }
 
 .potato-head__top--photo-block {
-  margin-top: 15rem;
+  margin-top: 9rem;
+}
+
+.potato-head__top--photo-block h1 {
+  position: relative;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 900;
+  width: 80.3rem;
+  z-index: 2;
+  top: -43rem;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 5px 16px 5px rgba(63, 38, 18, 1);
+  line-height: 6.4rem;
+}
+
+.potato-head__top--photo-block p {
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background: #f8e9ac;
+  width: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-radius: 3px;
+  border: 2.5px solid #3f2612;
+  -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
+-moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
+box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
+}
+
+.potato-head__top--photo-block ul {
+  margin-top: 3rem;
+  text-align: center;
+  
+}
+
+.potato-head__top--photo-block li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-right: 2rem;
+}
+
+
+
+@media (max-width: 1216px) {
+  .fa-bars {
+    margin-left: 24rem;
+}
 
 }
+
+@media (max-width: 992px) {
+  .fa-bars {
+   margin-left: 110rem
+  }
+}
+
+@media (max-width: 768px) {
+  
+}
+
 
 
