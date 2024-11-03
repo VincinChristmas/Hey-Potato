@@ -102,7 +102,7 @@ header:after {
   transform:rotate(-6deg);
   position: relative;
   top: 1rem;
-  z-index: 1;
+  z-index: 2;
   text-shadow: -8px 13px 7px rgba(63, 38, 18, 1);
 }
 
@@ -132,20 +132,20 @@ header:after {
 .potato-head__container--block-bottom {
   position: relative;
   z-index: 1;
-  top: -32.8rem;
+  top: -43rem;
 }
 
 .potato-head__container--photo-nonblur {
   display: block;
   margin: 0 auto;
-  width: 37rem;
+  width: 39rem;
 }
 
 .potato-head__top--title {
   position: relative;
   text-align: center; 
   z-index: 2;
-  top: -36.5rem;
+  top: -46.5rem;
 }
 
 .potato-head__top--title h1 {
@@ -219,7 +219,7 @@ box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
   }
   
   .potato-head__container--block-bottom {
-    top: -32rem;
+    top: -39.7rem;
   }
 
   .potato-head__tasty li{
@@ -266,7 +266,7 @@ box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
   }
 
   .potato-head__container--photo-nonblur {
-    width: 19rem;
+    width: 17rem;
   }
 
   .potato-head__container--photo-blur {
@@ -274,7 +274,7 @@ box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.89);
   }
 
   .potato-head__container--block-bottom {
-    top: -17rem;
+    top: -18.8rem;
   }
 
   .potato-head__top--title {
