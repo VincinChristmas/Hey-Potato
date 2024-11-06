@@ -127,6 +127,7 @@ header:after {
   width: 73.2rem;
   height: 25rem;
   border-radius: 30px;
+  opacity: 0.8;
 }
 
 .potato-head__container--block-bottom {
