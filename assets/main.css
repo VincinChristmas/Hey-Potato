@@ -301,6 +301,11 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   font-size: 1.5rem;
 }
 
+#menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menu-container {
   max-width: 75rem;
   padding: 0 1.25rem;
@@ -335,31 +340,82 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
 .menu__row {
   margin-top: 2rem;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__row img {
   width: 23rem;
   padding: 0.5rem;
   display: inline-block;
+  border-radius: 20px;
 }
 
-.menu-row--one img{
+.menu__row p {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu-row--one-itemone, .menu-row--one-itemtwo, .menu-row--one-itemthree, .menu-row--one-item, .menu-row--one-price, .menu-row--two-itemone, .menu-row--two-itemtwo,
+ .menu-row--two-itemthree, .menu-row--two-price, .menu-row--two-item {
+  display: inline-block;
+}
+
+.menu-row--one-itemone .menu-row--one-price {
+  margin-left: 10.5rem;
+}
+
+.menu-row--one-itemtwo .menu-row--one-price {
+  margin-left: 13.3rem;
+}
+
+.menu-row--one-itemthree .menu-row--one-price {
+  margin-left: 12rem;
+}
+
+
+.menu-row--one-item {
+  padding-left: 0.5rem;
+}
+
+.menu-row--two-item {
+  padding-left: 0.5rem;
+}
+
+.menu-row--one-itemone,  .menu-row--one-itemtwo {
   border-bottom: 2px dotted #fbc15d;
-  border-left: 2px dotted #fbc15d;
-}
-
-.menu-row--one img:nth-child(1) {
-  border-left: none;
-}
-
-.menu-row--two img{
   border-right: 2px dotted #fbc15d;
+  padding-bottom: 0.3rem;
 }
 
-.menu-row--two img:nth-child(3) {
-  border-right: none;
+.menu-row--one-itemthree {
+  border-bottom: 2px dotted #fbc15d;
+  padding-bottom: 0.3rem;
 }
 
+.menu-row--two-itemone, .menu-row--two-itemtwo{
+  border-bottom: 2px dotted #fbc15d;
+  border-right: 2px dotted #fbc15d;
+  padding-bottom: 0.3rem;
+}
+
+
+.menu-row--two-itemthree {
+  border-bottom: 2px dotted #fbc15d;
+  padding-bottom: 0.3rem;
+}
+
+.menu-row--two-itemone .menu-row--two-price {
+  margin-left: 10.5rem;
+}
+
+.menu-row--two-itemtwo .menu-row--two-price {
+  margin-left: 11.5rem;
+}
+
+.menu-row--two-itemthree .menu-row--two-price {
+  margin-left: 11.5rem;
+}
 
 
 
