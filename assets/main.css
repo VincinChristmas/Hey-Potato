@@ -338,6 +338,7 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
 
 
 .menu__row {
+  text-align: center;
   margin-top: 2rem;
   max-width: 100%;
   margin-left: auto;
