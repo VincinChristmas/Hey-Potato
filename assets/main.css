@@ -312,17 +312,14 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   margin: 0 auto;
 }
 
-
 .menu__intro--billboard {
-  display: inline-block;
   width: 28rem;
-  margin-right: 35rem;
 }
 
 .menu__intro--title {
-  display: inline-block;
-  margin-top: -4rem;
+  margin-top: -6rem;
   font-weight: 700;
+  margin-left: 62rem;
   font-size: 0.9rem;
   color:#811b06;
   width: 5.5rem;
@@ -336,13 +333,9 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
 }
 
-
 .menu__row {
   text-align: center;
   margin-top: 2rem;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .menu__row img {
@@ -420,7 +413,6 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
 
 
 
-
 @media only screen and (max-width: 1215px) { 
   .potato-head__bottom-border:nth-child(n + 32) {
     display: none;
@@ -466,6 +458,29 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   
   .ad-container__photos--ads {
     margin-bottom: 3rem;
+  }
+
+  .menu__row {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu__intro--billboard  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .menu__intro--title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1rem;
+    width: 15rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -541,5 +556,67 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   .ad-container__photos--ads {
     margin-bottom: 3rem;
   }
+
+  .menu__row {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu__intro--billboard  {
+    display: block;
+    text-align: center;
+  }
+
+  .menu__intro--title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1rem;
+    width: 15rem;
+    font-size: 1.5rem;
+  }
+
+  .menu-row--one-itemone .menu-row--one-price {
+    display: block;
+    margin-left: auto;
+}
+
+.menu-row--one-itemtwo .menu-row--one-price {
+  display: block;
+  margin-left: auto;
+}
+
+.menu-row--one-itemthree .menu-row--one-price {
+  display: block;
+  margin-left: auto;
+}
+
+
+.menu-row--two-itemone .menu-row--two-price {
+  display: block;
+  margin-left: auto;
+}
+
+.menu-row--two-itemtwo .menu-row--two-price {
+display: block;
+margin-left: auto;
+}
+
+.menu-row--two-itemthree .menu-row--two-price {
+display: block;
+margin-left: auto;
+}
+
+
+
+
+
+  
+
+  
+
+ 
 }
 
