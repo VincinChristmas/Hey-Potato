@@ -555,6 +555,14 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   margin-left: 0.6rem;
 }
 
+.thirdad-container__photos--logo {
+  position: relative;
+  width: 23rem;
+  left: 53rem;
+  top: 9rem;
+  transform: rotate(15deg)
+}
+
 .finalad-container {
   max-width: 75rem;
   padding: 0 1.25rem;
@@ -701,6 +709,13 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
     width: 15rem;
     font-size: 1.5rem;
   }
+
+  .thirdad-container__photos--logo {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -726,7 +741,7 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   }
 
   .potato-head__tasty--logo {
-    width:10rem; 
+    width:9rem; 
     display: block;
     position: static;
     margin-top: 2rem;
@@ -863,5 +878,13 @@ margin-left: auto;
 display: block;
 margin-left: auto;
 }
+
+.thirdad-container__photos--logo {
+  position: static;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
 
