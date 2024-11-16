@@ -224,6 +224,13 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   color: #811b06;;
 } 
 
+.potato-head__tasty--logo {
+  width:25rem; 
+  position: relative;
+  top: 5rem;
+  transform: rotate(-15deg);
+}
+
 .potato-head__bottom-border--home {
   display: block;
   width: 100%;
@@ -716,6 +723,16 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
     animation-delay: .5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+  }
+
+  .potato-head__tasty--logo {
+    width:10rem; 
+    display: block;
+    position: static;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-15deg);
   }
 
    .potato-head__menu {
