@@ -111,6 +111,29 @@ header:after {
   text-shadow: -8px 10px 3px rgba(129, 27, 6, 1);
 }
 
+@keyframes swing {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.potato-head__logo {
+  width: 16rem;
+  display: inline-block;
+  position: relative;
+  top: -5rem; 
+  left: 6rem;
+  animation-name: swing;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .potato-head__sandwich {
   float: right;
   margin-top: 1.5rem;
@@ -678,11 +701,28 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
     display: none
    }
 
+   .potato-head__logo {
+    width: 20rem;
+    display: block;
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    animation-name: swing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
    .potato-head__menu {
     display: block;
     width: 100%;
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .potato-head__menu a {
@@ -695,7 +735,7 @@ box-shadow: 10px 10px 5px 0px rgba(129,27,6,1);
   
   .potato-head__title {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     font-size: 1.8rem;
     margin-left: auto;
     margin-right: auto;
