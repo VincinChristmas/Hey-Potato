@@ -25,6 +25,7 @@
     -webkit-font-smoothing: antialiased;
     font-family: "Noto Sans", sans-serif;
     color: #811b06;
+    overflow: hidden;
   }
   
   /* 5. Improve media defaults */
